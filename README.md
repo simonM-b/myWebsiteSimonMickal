@@ -1,2 +1,2 @@
-go to the site at <a href="simonmickal.com">simonmickal.com
+go to the site at <a href="https://www.simonmickal.com">simonmickal.com
 <a>
