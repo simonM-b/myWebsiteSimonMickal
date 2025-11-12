@@ -21,6 +21,7 @@ div.scroll-container {
     background-color: #333;
     overflow: auto;
     padding: 10px;
+    white-space: nowrap;
 }
 
 div.scroll-container img {
@@ -52,6 +53,7 @@ div.scroll-container img {
   opacity: 0;
   transition: .5s ease;
   background-color:rgba(0, 0, 0, 0.7);
+  white-space: normal;
 }
 
 .image-hover-container:hover .image-text-overlay {
@@ -68,5 +70,5 @@ div.scroll-container img {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  overflow-wrap: break-word;
+  white-space: normal;
 }
