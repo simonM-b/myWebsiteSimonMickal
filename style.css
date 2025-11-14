@@ -102,11 +102,35 @@ div.scroll-container img {
   color: white;
 }
 
-.main-container-index{
-  max-width: 600px;
-  outline-color:white;
-  outline-width: 3px;
+.main-button-container-index{
+  max-width: 800px;
+  background-color: #141414;
   float: center;
   margin-left: auto;
   margin-right: auto;
+  overflow: auto;
+  padding: 10px;
+}
+
+.index-image-container{
+  max-width: 800px;
+  background-color: #141414;
+  display: flex; 
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding: 10px;
+}
+
+.index-title-and-other-container{
+  max-width: 800px;
+  background-color: #ab7f43;
+  color: #141414;
+  display: flex; 
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding: 10px;
 }
