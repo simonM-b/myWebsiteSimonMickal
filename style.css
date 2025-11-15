@@ -120,7 +120,10 @@ div.scroll-container img {
   margin-right: auto;
   overflow: auto;
   padding: 10px;
-  padding-left: 40px;
+}
+
+.main-stuff-container h1,h2,h3,img,p{
+  margin-left: 20px; /*this is padding but in a weird way*/
 }
 
 .index-image-container{
