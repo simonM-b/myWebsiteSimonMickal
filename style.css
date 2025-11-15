@@ -122,9 +122,6 @@ div.scroll-container img {
   padding: 10px;
 }
 
-.main-stuff-container h1,h2,h3,img,p{
-  margin-left: 20px; /*this is padding but in a weird way*/
-}
 
 .index-image-container{
   max-width: 800px;
