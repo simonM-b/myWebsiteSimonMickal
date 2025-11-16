@@ -99,6 +99,7 @@ div.scroll-container img {
   float: left;
   text-decoration: none; 
   color: white;
+  box-sizing: border-box;
 }
 
 .main-buttons-right {
@@ -111,26 +112,27 @@ div.scroll-container img {
   float: right;
   text-decoration: none; 
   color: white;
+  box-sizing: border-box;
 }
 
 .main-button-container-index{
   max-width: 800px;
   background-color: #141414;
-  float: center;
   margin-left: auto;
   margin-right: auto;
   overflow: auto;
   padding: 10px;
+  box-sizing: border-box;
 }
 
 .main-stuff-container{
   max-width: 800px;
   background-color: #141414;
-  float: center;
   margin-left: auto;
   margin-right: auto;
-  overflow: auto;
   padding: 10px;
+  padding-left: 25px;
+  box-sizing: border-box;
 }
 
 
@@ -138,11 +140,11 @@ div.scroll-container img {
   max-width: 800px;
   background-color: #141414;
   display: flex; 
-  float: center;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
   padding: 10px;
+  box-sizing: border-box;
 }
 
 .index-title-and-other-container{
@@ -150,9 +152,9 @@ div.scroll-container img {
   background-color: #ab7f43;
   color: #141414;
   display: flex; 
-  float: center;
   margin-left: auto;
   margin-right: auto;
   justify-content: center;
   padding: 10px;
+  box-sizing: border-box;
 }
