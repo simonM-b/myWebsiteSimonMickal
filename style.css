@@ -160,3 +160,40 @@ div.scroll-container img {
   text-align: center;
   justify-content: center;
 }
+
+.showcase-inner-container{
+  max-width: 600px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: left;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.showcase-inner-container div{
+  max-height: 145px;
+  max-width: 200px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.items-in-showcase{
+  color:white; 
+  background-color: black; 
+  height: 145px; 
+  padding-left: 10px; 
+  padding-right: 10px;
+}
+
+
+ 
+
+.showcase-inner-container a{
+  text-decoration: none
+}
