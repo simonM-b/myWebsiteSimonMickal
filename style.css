@@ -176,19 +176,15 @@ div.scroll-container img {
   align-items: flex-start;
 }
 
-.showcase-inner-container div{
-  max-height: 145px;
-  max-width: 200px;
+.items-in-showcase{
   text-align: center;
   box-sizing: border-box;
-}
-
-.items-in-showcase{
   color:white; 
   background-color: black; 
   height: 145px; 
   padding-left: 10px; 
   padding-right: 10px;
+  min-width: 200px;
 }
 
 
