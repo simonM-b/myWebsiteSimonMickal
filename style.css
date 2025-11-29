@@ -149,7 +149,7 @@ div.scroll-container img {
   box-sizing: border-box;
 }
 
-.title-and-other-container-gold{
+.title-container-gold{
   max-width: 800px;
   background-color: #ab7f43;
   color: #141414;
@@ -160,10 +160,26 @@ div.scroll-container img {
   box-sizing: border-box;
   text-align: center;
   justify-content: center;
+  padding-top: 45px; 
+  padding-bottom: 45px;
+}
+
+.container-gold{
+  max-width: 800px;
+  background-color: #ab7f43;
+  color: #141414;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 80px;
 }
 
 .showcase-inner-container{
-  max-width: 600px;
+  max-width: 650px;
   background-color: #333;
   color: white;
   padding: 10px;
@@ -177,6 +193,10 @@ div.scroll-container img {
   align-items: flex-start;
 }
 
+.showcase-inner-container a{
+  display: flex
+}
+
 .items-in-showcase{
   text-align: center;
   box-sizing: border-box;
@@ -188,9 +208,39 @@ div.scroll-container img {
   min-width: 200px;
 }
 
+.photo-showcase-inner-container{
+  max-width: 650px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: left;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  gap:10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.photo-showcase-inner-container a{
+  display: flex
+}
+
+.photo-showcase-inner-container img{
+  max-height: 350px;
+  display: block;
+  height: auto;
+  display: flex;
+}
+
+
+
+
+
 
  
-
 .showcase-inner-container a{
   text-decoration: none
 }
