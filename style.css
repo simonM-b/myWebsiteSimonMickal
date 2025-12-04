@@ -244,10 +244,11 @@ div.scroll-container img {
 
 
 
-
-
-
- 
 .showcase-inner-container a{
   text-decoration: none
+}
+
+.blue-link-style a{
+  color: blue; 
+  text-decoration: underline;
 }
