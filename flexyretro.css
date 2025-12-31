@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(129, 4, 129);
+    color: whitesmoke;
+}
+
+header{
+    font-size: 35px;
+    padding: 30px;
+    text-align: center;
+}
