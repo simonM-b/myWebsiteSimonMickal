@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(129, 4, 129);
+    background-color:lightgreen;
     color: whitesmoke;
 }
 
@@ -8,3 +8,37 @@ header{
     padding: 30px;
     text-align: center;
 }
+
+main{
+}
+
+.wrap-whole{
+    background-color:rgb(129, 4, 129);
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.card {
+  background-color: darkkhaki;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+
