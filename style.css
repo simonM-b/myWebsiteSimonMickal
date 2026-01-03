@@ -252,3 +252,11 @@ div.scroll-container img {
   color: blue; 
   text-decoration: underline;
 }
+
+.small-text-indent{
+  margin-left: 20px;
+}
+
+.text-indent{
+  margin-left: 40px;
+}
