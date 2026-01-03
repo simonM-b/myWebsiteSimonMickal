@@ -1,6 +1,6 @@
 body{
     background-color:lightgreen;
-    color: whitesmoke;
+    color: white;
 }
 
 header{
@@ -79,4 +79,78 @@ h3{
     margin-left: auto;
     margin-right: auto;
 }
+
+.outside-scroll-container{
+  padding:10px;
+  background-color: #333;
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.showcase-inner-container{
+  padding:10px;
+  max-width: 650px;
+  background-color: #333;
+  color: white;
+  margin: 0 auto;
+  text-align: left;
+  box-sizing: border-box;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  /* justify-content: center; */
+}
+
+.showcase-inner-container div{
+  width: 100px;
+	height: 50px;
+	transform: skew(-200deg);
+	background: blueviolet;
+
+  padding: 20px;
+  padding-left: 5px;
+  padding-top: 5px;
+  text-align: center;
+  color: white;
+} 
+
+.showcase-inner-container a{
+  text-decoration: none;
+}
+
+.link-hover:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+.parallelogram {
+  width: 100px;
+	height: 50px;
+	transform: skew(-20deg);
+	background: blueviolet;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid blueviolet;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid blueviolet;
+}
+
+.center-text{
+  text-align: center;
+}
+
 
