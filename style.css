@@ -125,6 +125,10 @@ div.scroll-container img {
   box-sizing: border-box;
 }
 
+.main-button-container-index div:hover{
+  background-color: gray;
+}
+
 .main-stuff-container{
   max-width: 800px;
   background-color: #141414;
