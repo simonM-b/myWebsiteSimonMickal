@@ -264,3 +264,12 @@ div.scroll-container img {
 .text-indent{
   margin-left: 40px;
 }
+
+.gift-haul-sec-left{
+}
+
+.gift-haul-sec-left img{
+  max-width: 245px;
+  float: left;
+  margin-right: 20px;
+}
