@@ -292,3 +292,26 @@ div.scroll-container img {
   background-color: goldenrod;
   color: white;
 }
+
+.size-warning {
+    display: none;
+    background-color: #ffdddd;
+    color: #d8000c;
+    padding: 20px;
+    border: 1px solid #d8000c;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+@media (max-width: 500px) {
+    .size-warning {
+        display: block;
+    }
+    .content {
+    }
+}
