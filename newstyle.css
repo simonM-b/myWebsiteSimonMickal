@@ -13,8 +13,13 @@ main{
 
 .index-container{
     display: grid;
-    grid-template-columns: 2fr 2.5fr 3fr;
-    
+    grid-template-columns: 2.5fr 2fr 3fr;
+    grid-template-rows: 2fr 1.5fr 2fr 2fr 2fr;
+    grid-template-areas: 'rose schoolps abtme'
+                        'socials schoolps abtme'
+                        'socials favgame abtme'
+                        'penny favgame dayphoto'
+                        'penny guestbook dayphoto';
     padding-top: 10px;
     gap: 10px;
     row-gap: 10px;
@@ -35,22 +40,48 @@ main{
     text-align: center;
 }
 
-.area1{
-    grid-area: myArea;
-}
-
-
+.area-rose{ grid-area: rose;}
+.area-shoolps{ grid-area: schoolps;}
+.area-aboutme{ grid-area: abtme;}
+.area-socials{ grid-area: socials;}
+.area-favegame{ grid-area: favgame;}
+.area-dailyphoto{ grid-area: dayphoto;}
+.area-penelopescott{ grid-area: penny;}
+.area-guestbook{ grid-area: guestbook;}
+.area-nine{ grid-area: nine;}
+.area-blank{ grid-area: blank;}
 
 
 .title{
-    max-width: 1024px;
+    width: 70%;
     height: 200px;
     background-color: #99ecc3;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
     font-family: "fantasy", sans-serif;
     font-size:4vh ;
+}
+
+.tags{
+    padding: 10px;
+    background-color: #99ecc3;
+    width: 27%;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+}
+
+.tags img{
+    width: 80%;
+}
+
+.titles-container{
+    gap: 3%;
+    height: 200px;
+    background-color: #c6f6de;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    display: flex;
 }
