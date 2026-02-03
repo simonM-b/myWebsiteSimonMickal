@@ -68,8 +68,8 @@ main{
     background-color: #99ecc3;
     width: 27%;
     display: grid;
-    grid-template-rows: 30px 30px;
-    grid-template-columns: auto auto;
+    grid-template-rows: 30px 30px 30px;
+    grid-template-columns: 80px 80px 80px;
 }
 
 .tags a{
