@@ -1,18 +1,56 @@
 body{
     background-color: white;
+    background-image: url(images/background\ image\ lavndr.png);
+    background-attachment:fixed ;
+    background-size: cover;
 }
 
-.index-grid-container{
+main{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index-container{
     display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: dodgerblue;
-    padding: 10px;
+    grid-template-columns: 2fr 2.5fr 3fr;
+    
+    padding-top: 10px;
+    gap: 10px;
+    row-gap: 10px;
 }
 
-.index-grid-container div{
-    background-color: #f1f1f1;
+.index-container div{
+    background-color: #c2afef;
     border: 1px solid black;
     padding: 10px;
+}
+
+.index-container div h3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
     font-size: 30px;
     text-align: center;
+}
+
+.area1{
+    grid-area: myArea;
+}
+
+
+
+
+.title{
+    max-width: 1024px;
+    height: 200px;
+    background-color: #99ecc3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "fantasy", sans-serif;
+    font-size:4vh ;
 }
