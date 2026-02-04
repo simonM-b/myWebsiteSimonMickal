@@ -53,7 +53,7 @@ main{
 
 
 .title{
-    width: 70%;
+    width: 75%;
     height: 200px;
     background-color: #99ecc3;
     display: flex;
@@ -61,15 +61,17 @@ main{
     align-items: center;
     font-family: "fantasy", sans-serif;
     font-size:4vh ;
+    border: 1px solid black;
 }
 
 .tags{
     padding: 10px;
     background-color: #99ecc3;
-    width: 27%;
+    width: 24%;
     display: grid;
     grid-template-rows: 30px 30px 30px;
-    grid-template-columns: 80px 80px 80px;
+    grid-template-columns: 81px 81px 81px;
+    border: 1px solid black;
 }
 
 .tags a{
@@ -81,11 +83,39 @@ main{
 }
 
 .titles-container{
-    gap: 3%;
+    gap: 10px;
     height: 200px;
-    background-color: #c6f6de;
     margin-left: auto;
     margin-right: auto;
     max-width: 1024px;
     display: flex;
+}
+
+.scroll-box {
+    margin-top: 10px;
+    height: 150px; 
+    border: 1px solid #ccc;
+    overflow: auto;
+    padding: 10px; 
+}
+
+.scroll-box div{
+    background-color:#383838;
+    width: 200px;
+    height: 95%;
+    padding: 5px;
+    text-align: center;
+    color:#f0eaff;
+}
+
+.scroll-box div h3{
+    margin-top: 0px;
+}
+
+.mini-title-container{
+    background-color: #99ecc3;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
 }
