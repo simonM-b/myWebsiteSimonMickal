@@ -31,6 +31,7 @@ main{
     background-color: #c2afef;
     border: 1px solid black;
     padding: 20px;
+    padding-bottom: 10px;
 }
 
 .index-container div p{
