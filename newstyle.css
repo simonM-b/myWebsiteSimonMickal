@@ -28,7 +28,7 @@ main{
 .index-container div{
     background-color: #c2afef;
     border: 1px solid black;
-    padding: 10px;
+    padding: 20px;
 }
 
 .index-container div h3{
@@ -100,7 +100,7 @@ main{
 }
 
 .outer-scoll{
-    height: 150px; 
+    height: 200px; 
     padding: 15px;
     background-color: #99ecc3;
     border: 1px solid black;
@@ -108,7 +108,7 @@ main{
 
 .scroll-box { /* the container for the scrolling things */
     margin: auto;
-    height: 150px; 
+    height: 100%; 
     overflow-y: auto;
     display: flex;
     gap: 10px;
@@ -125,8 +125,18 @@ main{
     border: 1px solid black;
 }
 
-.scroll-box div h3{
-    margin-top: 0px;
+.scroll-child a{
+    color: lightcyan;
+}
+
+.scroll-child a:visited {
+  color: darkturquoise;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.scroll-child h3{
+    margin-top: 8px;
 }
 
 
