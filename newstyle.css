@@ -20,7 +20,7 @@ main{
                         'socials schoolps abtme'
                         'socials favgame abtme'
                         'penny favgame dayphoto'
-                        'penny guestbook dayphoto';
+                        'penny libbook dayphoto';
     padding-top: 10px;
     gap: 10px;
     row-gap: 10px;
@@ -65,6 +65,7 @@ main{
 .area-guestbook{ grid-area: guestbook;}
 .area-nine{ grid-area: nine;}
 .area-blank{ grid-area: blank;}
+.area-bookstats{ grid-area: libbook;}
 
 
 .title{
@@ -143,11 +144,11 @@ main{
 }
 
 .scroll-child a{
-    color: lightcyan;
+    color: lightcyan; /* link color */
 }
 
 .scroll-child a:visited {
-  color: darkturquoise;
+  color: darkturquoise; 
   background-color: transparent;
   text-decoration: none;
 }
@@ -163,3 +164,63 @@ main{
     background-color: #c2afef;
     padding: 25px;
 }
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #0000EE;
+  border-width: 0px;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+/*I GOT THE POPUP FROM W3SCHOOLS.COM */
