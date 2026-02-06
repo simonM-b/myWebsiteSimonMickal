@@ -5,6 +5,7 @@ body{
     background-size: cover;
 }
 
+
 main{
     max-width: 1024px;
     margin-left: auto;
@@ -26,9 +27,22 @@ main{
 }
 
 .index-container div{
+    display: block;
     background-color: #c2afef;
     border: 1px solid black;
     padding: 20px;
+}
+
+.index-container div p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.index-container div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .index-container div h3{
@@ -62,6 +76,8 @@ main{
     font-family: "fantasy", sans-serif;
     font-size:4vh ;
     border: 1px solid black;
+    flex: 3;
+    width: auto;
 }
 
 .tags{
