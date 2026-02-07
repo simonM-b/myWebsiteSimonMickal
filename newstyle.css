@@ -3,6 +3,7 @@ body{
     background-image: url(images/background\ image\ lavndr.png);
     background-attachment:fixed ;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 
@@ -224,3 +225,14 @@ main{
 }
 
 /*I GOT THE POPUP FROM W3SCHOOLS.COM */
+
+.fower-row{
+    display: flex;
+    margin-top: 10px;
+    margin-left: -235px;
+}
+
+.fower-row img{
+    width: 55px;
+}
+
