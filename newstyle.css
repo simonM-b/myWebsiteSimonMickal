@@ -16,12 +16,13 @@ main{
 .index-container{
     display: grid;
     grid-template-columns: 2.5fr 2fr 3fr;
-    grid-template-rows: 2fr 1.5fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 1.5fr 2fr 2fr 2fr 1.5fr;
     grid-template-areas: 'rose schoolps abtme'
-                        'socials schoolps abtme'
-                        'socials favgame abtme'
+                        'libbook schoolps abtme'
+                        'libbook favgame abtme'
                         'penny favgame dayphoto'
-                        'penny libbook dayphoto';
+                        'penny socials dayphoto'
+                        'guestbook socials blog';
     padding-top: 10px;
     gap: 10px;
     row-gap: 10px;
@@ -67,6 +68,7 @@ main{
 .area-nine{ grid-area: nine;}
 .area-blank{ grid-area: blank;}
 .area-bookstats{ grid-area: libbook;}
+.area-blog{ grid-area: blog;}
 
 
 .title{
@@ -186,7 +188,7 @@ main{
   color: #fff;
   text-align: center;
   border-radius: 6px;
-  padding: 8px 0;
+  padding: 10px;
   position: absolute;
   z-index: 1;
   bottom: 125%;
@@ -234,5 +236,10 @@ main{
 
 .fower-row img{
     width: 55px;
+}
+
+.weekly-photo-img{
+    max-width: 400px;
+    max-height: 500px;
 }
 
