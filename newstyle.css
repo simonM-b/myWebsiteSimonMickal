@@ -19,8 +19,8 @@ main{
     grid-template-rows: 2fr 1.5fr 2fr 2fr 2fr 1.5fr;
     grid-template-areas: 'rose schoolps abtme'
                         'libbook schoolps abtme'
-                        'libbook favgame abtme'
-                        'penny favgame dayphoto'
+                        'libbook shrines abtme'
+                        'trainlist shrines dayphoto'
                         'trainlist socials dayphoto'
                         'guestbook socials blog';
     padding-top: 10px;
@@ -70,6 +70,7 @@ main{
 .area-bookstats{ grid-area: libbook;}
 .area-blog{ grid-area: blog;}
 .area-trainsim{ grid-area: trainlist;}
+.area-shrines{ grid-area:shrines; }
 
 
 .title{
