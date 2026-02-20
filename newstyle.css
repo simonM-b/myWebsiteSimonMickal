@@ -21,7 +21,7 @@ main{
                         'libbook schoolps abtme'
                         'libbook favgame abtme'
                         'penny favgame dayphoto'
-                        'penny socials dayphoto'
+                        'trainlist socials dayphoto'
                         'guestbook socials blog';
     padding-top: 10px;
     gap: 10px;
@@ -69,6 +69,7 @@ main{
 .area-blank{ grid-area: blank;}
 .area-bookstats{ grid-area: libbook;}
 .area-blog{ grid-area: blog;}
+.area-trainsim{ grid-area: trainlist;}
 
 
 .title{
