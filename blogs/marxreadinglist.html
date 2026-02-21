@@ -1,0 +1,81 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>Marx reading blog</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="/basicpage.css" rel="stylesheet"/>
+            <style>
+                table{
+                    width: 100%;
+                    background-color: #FEF9FE;
+                }
+
+                td{
+                    padding: 10px;
+                }
+
+                th{
+                    background-color: #F9DEFD;
+                }
+
+                table img{
+                    max-width: 150px;
+                }
+
+                .status-notread{
+                    background-color: red;
+                }
+                .status-reading{
+                    background-color: orange;
+                }
+                .status-read{
+                    background-color: green;
+                }
+            </style>
+        </head>
+        <body>
+            <main>
+                <div class="clickgohometop" > <a href="index.html">click to go home</a> </div>
+                <div class="title"><h1>Marx readig list blog</h1></div>
+                <div class="main-container">
+                    <p>*green=read,orange=reading,red=not read</p>
+                    <table border="2">
+                          <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 20%;">
+                            <col style="width: 150px;">
+                            <col>
+                            <col style="width: 30px; text-align: center;">
+                        </colgroup>
+                        <tr>
+                            <th>Book title</th>
+                            <th>Author</th>
+                            <th>Image</th>
+                            <th>Notes</th>
+                            <th>Status* <!--<br> <span style="font-size: 50%;">(✅=read,<br>❌=not read,<br>🔶=reading)</span> --></th>
+                        </tr>
+                        <tr>
+                            <td>What is Marxism?</td>
+                            <td>Alan Woods & Rob Sewell</td>
+                            <td><img src="images/61tNOuhA1YL._AC_UF1000,1000_QL80_.jpg"></td>
+                            <td>none</td>
+                            <td class="status-notread"></td>
+                        </tr>
+                        <tr>
+                            <td>Manifesto of the Communist Party</td>
+                            <td>Karl Marx and Frederick Engel</td>
+                            <td><img src="images/9781728906324.jpg"></td>
+                            <td>none</td>
+                            <td class="status-reading"></td>
+                        </tr>
+                    </table>
+                </div>
+            </main>
+            <footer>
+                <p>Footer</p>
+                <p>Website by simon mickal</p>
+                <a href="index.html">click to go home</a>
+            </footer>
+        </body>
+    </html>
