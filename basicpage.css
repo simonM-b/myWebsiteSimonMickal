@@ -48,3 +48,10 @@ footer{
 footer p{
     margin: 0px;
 }
+
+.clickgohometop{
+    background-color: #99ecc3;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    padding: 5px;
+}
