@@ -5,13 +5,98 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link href="/basicpage.css" rel="stylesheet"/>
+                        <style>
+                table{
+                    width: 100%;
+                    background-color: #FEF9FE;
+                }
+
+                td{
+                    padding: 10px;
+                }
+
+                th{
+                    background-color: #F9DEFD;
+                }
+
+                table img{
+                    max-width: 150px;
+                }
+
+                .status-notread{
+                    background-color: red;
+                }
+                .status-reading{
+                    background-color: orange;
+                }
+                .status-read{
+                    background-color: green;
+                }
+            </style>
         </head>
         <body>
             <main>
                 <div class="clickgohometop" > <a href="/index.html">click to go home</a> </div>
                 <div class="title"><h1>Book Blog</h1></div>
                 <div class="main-container">
-                    <p>placeholder</p>
+                    <p style="background-color: #FEF9FE;">*<span style="color: green;">green=read,</span><span style="color: orange;">orange=reading,</span><span style="color: red;">red=not read</span><br>This reading blog doesn't include books about communism/politics <a href="marxreadinglist.html">click here</a></p>
+                    <table border="2">
+                          <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 20%;">
+                            <col style="width: 150px;">
+                            <col>
+                            <col style="width: 30px; text-align: center;">
+                        </colgroup> <!-- START OF TABLE CONTENTS-->
+                        <tr>
+                            <th>Book title</th>
+                            <th>Author</th>
+                            <th>Image</th>
+                            <th>Notes</th>
+                            <th>Status* <!--<br> <span style="font-size: 50%;">(✅=read,<br>❌=not read,<br>🔶=reading)</span> --></th>
+                        </tr>
+
+                        <tr>
+                            <td>Love Story</td>
+                            <td>Erich Segal</td>
+                            <td><img src="images/6152t05-9XL._AC_UF1000,1000_QL80_.jpg"></td>
+                            <td>none</td>
+                            <td class="status-notread"></td>
+                        </tr>
+
+                        <tr>
+                            <td>To Kill A Mockingbird</td>
+                            <td>Harper Lee</td>
+                            <td><img src="images/56916837.jpg"></td>
+                            <td>none</td>
+                            <td class="status-notread"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Six Of Crows</td>
+                            <td>Leigh Bardugo</td>
+                            <td><img src="images/Six_of_Crows_by_Leigh_Bardugo_book_cover.jpeg"></td>
+                            <td>none</td>
+                            <td class="status-notread"></td>
+                        </tr>
+
+                        <tr>
+                            <td>i am here!</td>
+                            <td>Ema Toyama</td>
+                            <td><img src="images/61cw6FyEI0L._AC_UF1000,1000_QL80_.jpg"></td>
+                            <td>none</td>
+                            <td class="status-notread"></td>
+                        </tr>
+
+                        <tr>
+                            <td>Bloom Into You</td>
+                            <td>Nio Nakatani</td>
+                            <td><img src="images/Bloom_Into_You_Volume_1.jpg"></td>
+                            <td>none</td>
+                            <td class="status-reading"></td>
+                        </tr>
+
+                    </table> <!-- END OF TABLE CONTENTS --------------- -->
                 </div>
             </main>
             <footer>
