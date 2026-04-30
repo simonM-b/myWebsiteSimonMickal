@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+main{
+    margin-top: 10px;
+    gap: 20px;
+    padding: 5px;
+}
+
+a{
+    color: palevioletred;
+}
+
+a:hover{
+    color:#1589FF;
+}
+
+.light-article{
+    padding: 10px;
+    outline: thick double #32a1ce;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.light-article p{
+    margin: 0;
+}
+
+.light-article h2{
+    margin-top: 0;
+}
+
+.light-section{
+    padding: 10px;
+    outline: thick double #32a1ce;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.light-section p{
+    margin: 0;
+}
+
+.light-section h2{
+    margin-top: 0;
+}

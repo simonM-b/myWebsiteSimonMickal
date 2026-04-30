@@ -1,0 +1,21 @@
+.title{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10px;
+}
+
+.px10-sep{
+    margin-top: 10px;
+}
+
+.px20-sep{
+    margin-top: 20px;
+}
+
+.px25-sep{
+    margin-top: 25px;
+}
+
+.px30-sep{
+    margin-top: 30px;
+}
