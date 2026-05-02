@@ -1,12 +1,6 @@
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(7, 0, 99);
     color: white;
-}
-
-main{
-    margin-top: 10px;
-    gap: 20px;
-    padding: 5px;
 }
 
 a{
@@ -19,7 +13,6 @@ a:hover{
 
 .light-article{
     padding: 10px;
-    outline: thick double #32a1ce;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -34,7 +27,6 @@ a:hover{
 
 .light-section{
     padding: 10px;
-    outline: thick double #32a1ce;
     margin-top: 5px;
     margin-bottom: 5px;
 }

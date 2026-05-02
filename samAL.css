@@ -1,7 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Arial';
+}
+
 .title{
-    background-color: blueviolet;
+    background-color: black;
     text-align: center;
+    border: 1px solid;
     padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color: blueviolet;
+    text-align: left;
+    padding: 10px;
+}
+
+footer p{
+    margin: 1px;
 }
 
 .px10-sep{
@@ -18,4 +39,47 @@
 
 .px30-sep{
     margin-top: 30px;
+}
+
+.left {
+  float: left;
+  width: 20%;
+  text-align: center;
+  background-color: black;
+}
+
+
+.main-content {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.main-content div,section{
+    background-color: black;
+}
+
+.right {
+  background-color: black;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  text-align: center;
+}
+
+.inner-content{
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 800px) {
+  /* For mobile phones: */
+  .left, .main-content, .right {
+    width: 100%;
+  }
+
+  .main-content{
+    padding:0;
+  }
 }
