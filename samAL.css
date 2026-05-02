@@ -1,13 +1,18 @@
+:root {
+    --main-bg-color: #1F2022;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body{
     font-family: 'Arial';
+    background-color: black;
 }
 
 .title{
-    background-color: black;
+    background-color: #6B695E;
     text-align: center;
     border: 1px solid;
     padding: 10px;
@@ -16,7 +21,7 @@ body{
 }
 
 footer{
-    background-color: blueviolet;
+    background-color: var(--main-bg-color);
     text-align: left;
     padding: 10px;
 }
@@ -45,7 +50,7 @@ footer p{
   float: left;
   width: 20%;
   text-align: center;
-  background-color: black;
+  background-color: var(--main-bg-color);
 }
 
 
@@ -56,11 +61,11 @@ footer p{
 }
 
 .main-content div,section{
-    background-color: black;
+    background-color: var(--main-bg-color);
 }
 
 .right {
-  background-color: black;
+  background-color: var(--main-bg-color);
   float: left;
   width: 20%;
   padding: 15px;
