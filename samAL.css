@@ -1,5 +1,5 @@
 :root {
-    --main-bg-color: #1F2022;
+    --main-bg-color: #38405f;
 }
 
 * {
@@ -8,11 +8,11 @@
 
 body{
     font-family: 'Arial';
-    background-color: black;
+    background-color: #8b939c;
 }
 
 .title{
-    background-color: #6B695E;
+    background-color: #59546c;
     text-align: center;
     border: 1px solid;
     padding: 10px;
@@ -78,6 +78,11 @@ footer p{
     border-radius: 15px;
 }
 
+.space-no-phone{
+    margin-top: 100%;
+    display: block;
+}
+
 @media only screen and (max-width: 800px) {
   /* For mobile phones: */
   .left, .main-content, .right {
@@ -86,5 +91,9 @@ footer p{
 
   .main-content{
     padding:0;
+  }
+
+  .space-no-phone{
+    display: none;
   }
 }
