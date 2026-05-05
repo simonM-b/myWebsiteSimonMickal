@@ -1,0 +1,77 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+header{
+    text-align: center;
+}
+
+.art-container-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,
+    minmax(300px, 1fr));
+    grid-gap: 10px
+}
+
+.art-container-grid > a{
+    font-size: 20px;
+    padding: 1rem;
+    color: yellow;
+    text-align: center;
+    background: black;
+    outline-color: white;
+    outline-width: 1px;
+    outline-style: solid;
+    text-decoration: none;
+}
+
+.art-container-grid > div{
+    font-size: 20px;
+    padding: 1rem;
+    color: yellow;
+    text-align: center;
+    background: black;
+    outline-color: white;
+    outline-width: 1px;
+    outline-style: solid;
+}
+
+.art-container-grid > a:hover{
+    outline-color: yellow;
+    outline-width: 1px;
+    outline-style: solid;
+    text-decoration: none;
+}
+
+.art-container-grid > div:hover{
+    outline-color: yellow;
+    outline-width: 1px;
+    outline-style: solid;
+}
+
+.light-section{
+    padding: 5px;
+    outline-width: 1px;
+    outline-style: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.qrcode-landing-page{
+    text-align: center;
+}
+
+.qrcode-image-container-landing-page{
+}
+
+.qrcode-image-container-landing-page img{
+    max-width: 800px;
+}
+
+@media screen and (min-width: 600px) {
+    .art-container-grid{
+        grid-template-columns: repeat(auto-fill,
+    minmax(400px, 1fr));
+    }
+}
