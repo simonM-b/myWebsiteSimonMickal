@@ -1,0 +1,27 @@
+body{
+    margin: 0%;
+    height: 100%;
+}
+
+header{
+
+}
+
+.title{
+    background-color: #1E104E;
+    width: 100%;
+    text-align: center;
+    height: 50vh;
+    display: grid;
+    place-items: center;
+}
+
+.title h1{
+    padding: 0;
+    margin: 0;
+}
+
+.about{
+    display: flex;
+    background-color: #452E5A;
+}
