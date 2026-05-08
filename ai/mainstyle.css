@@ -85,8 +85,10 @@ footer a:hover{
 nav{
     background-color: #FF653F;
     height: 70px;
+    width: 100%;
     display: flex;
     justify-content: center;
+    position: fixed;
 }
 
 nav .center-this{
