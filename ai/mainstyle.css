@@ -8,8 +8,8 @@ header{
 }
 
 .title{
+    padding: 10px;
     background-color: #1E104E;
-    width: 100%;
     text-align: center;
     height: 70vh;
     display: grid;
