@@ -81,3 +81,31 @@ footer a{
 footer a:hover{
     color: purple;
 }
+
+nav{
+    background-color: #FF653F;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+nav .center-this{
+    gap: 10px;
+    display: flex;
+    width: 100%;
+    display: grid; grid-template-columns: repeat(3, 1fr);
+}
+
+nav .center-this .item{
+    height: 100%;
+    background-color: #FFC85C;
+    padding: 5px;
+    display: grid;
+    place-items: center;
+    box-sizing: border-box;
+}
+
+nav .center-this .item p{
+    display: block;
+    margin: 0;
+}
