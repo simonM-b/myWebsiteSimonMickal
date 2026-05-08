@@ -16,7 +16,7 @@ header{
     padding: 10px;
     background-color: #1E104E;
     text-align: center;
-    height: 70vh;
+    height: 80vh;
     display: grid;
     place-items: center;
 }
@@ -27,7 +27,7 @@ header{
 }
 
 .about{
-    height: 40vh;
+    height: 50vh;
     padding: 10px;
     display: block;
     background-color: #452E5A;
