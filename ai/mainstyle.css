@@ -1,6 +1,11 @@
 body{
     margin: 0%;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    margin: 0;
 }
 
 header{
@@ -24,7 +29,55 @@ header{
 .about{
     height: 40vh;
     padding: 10px;
-    width: 100%;
-    display: inline-block;
+    display: block;
     background-color: #452E5A;
+}
+
+.join-us{
+    height: 40vh;
+    padding: 10px;
+    display: block;
+    background-color: #FF653F;
+}
+
+.join-us .dc-button{
+    color: black;
+    padding: 10px;
+    background-color: #FFC85C;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    outline: #f23000;
+    outline-width: 5px;
+    outline-style: solid;
+}
+
+.join-us .dc-button:hover{
+    outline: #FFC85C;
+    outline-width: 5px;
+    outline-style: solid;
+    background-color: #f23000;
+}
+
+.join-us .dc-button p{
+    margin: auto;
+}
+
+.join-us .link-dc-button-container{
+    text-decoration: none;
+}
+
+footer{
+    background-color: gray;
+    display: block;
+    margin: 0;
+    padding: 10px;
+}
+
+footer a{
+    color: blue;
+}
+
+footer a:hover{
+    color: purple;
 }
