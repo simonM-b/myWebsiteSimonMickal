@@ -6,6 +6,7 @@
     --mainOrangeA:#FF653F;
     --mainOrangeB: #f23000;
     --mainYellow: #FFC85C;
+    --mainLime: #196A0B;
 }
 
 body{
@@ -38,6 +39,7 @@ nav .center-this{
 }
 
 nav .center-this a{
+    text-decoration: none;
     color: var(--mainPurpleA);
 }
 
@@ -48,6 +50,7 @@ nav .center-this .item{
     display: grid;
     place-items: center;
     box-sizing: border-box;
+    text-align: center;
 }
 
 nav .center-this .item:hover{
@@ -82,23 +85,24 @@ header{
 .title h1{
     padding: 0;
     margin: 0;
+    font-size: 7em;
 }
 
 .about{
-    min-height: 50vh;
+    min-height: 20vh;
     padding: 10px;
     display: block;
     background-color: var(--mainPurpleB);
 }
 
-.join-us{
-    min-height: 40vh;
+.months-12-of-art{
+    min-height: 30vh;
     padding: 10px;
     display: block;
     background-color: var(--mainOrangeA);
 }
 
-.join-us .dc-button{
+.dc-button{
     color: black;
     padding: 10px;
     background-color: var(--mainYellow);
@@ -110,19 +114,26 @@ header{
     outline-style: solid;
 }
 
-.join-us .dc-button:hover{
+.dc-button:hover{
     outline: var(--mainYellow);
     outline-width: 5px;
     outline-style: solid;
     background-color: var(--mainOrangeB);
 }
 
-.join-us .dc-button p{
+.dc-button p{
     margin: auto;
 }
 
-.join-us .link-dc-button-container{
+.link-dc-button-container{
     text-decoration: none;
+}
+
+.book-blog{
+    min-height: 30vh;
+    padding: 10px;
+    display: block;
+    background-color: var(--mainLime);
 }
 
 footer{
