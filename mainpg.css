@@ -85,7 +85,13 @@ header{
 .title h1{
     padding: 0;
     margin: 0;
-    font-size: 10vw;
+    font-size: 20vw;
+}
+
+@media screen and (min-width: 1000px) {
+  .title h1{
+    font-size: 145pt;
+}
 }
 
 .about{
