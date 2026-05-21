@@ -1,0 +1,32 @@
+:root{
+    --maxWidth: 1000px;
+    --mainPurpleA: #1E104E;
+    --mainPurpleB: #452E5A; 
+    --mainPupleC: purple; 
+    --mainOrangeA:#FF653F;
+    --mainOrangeB: #f23000;
+    --mainYellow: #FFC85C;
+    --mainLime: #196A0B;
+    --numberItemsInNav: 5;
+}
+
+.about1{
+    min-height: 36vh;
+    padding: 10px;
+    display: block;
+    background-color: var(--mainPurpleB);
+}
+
+.month-1{
+    min-height: 30vh;
+        padding: 10px;
+        display: block;
+        background-color: var(--mainOrangeA);
+}
+
+.month-2{
+    min-height: 30vh;
+    padding: 10px;
+    display: block;
+    background-color: var(--mainLime);
+}
