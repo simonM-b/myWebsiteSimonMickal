@@ -1,0 +1,84 @@
+<h1 id="-slivercs-documentation">.slivercs documentation</h1>
+<h2 id="what-is-slivercs-file-">What is .slivercs file ?</h2>
+<p>slivercs stands for “sliver cell script”. The slivercs file extension is primarily used in sliverofstraw’s cell simulation game. The file extension does not do anything on its own, but when opened when opened in the previously mentioned game, the content inside of the file acts as instructions for objects called “cells” in the game.</p>
+<p>This script is atached to an object called a &quot;cell spawner&quot; that spawns in one or more cell object/s with the instructions under the spawnCell() function being copied to the cell.</p>
+<p>Here is an example of sliver cell script</p>
+<pre><code><span class="hljs-selector-tag">spawnCell</span>()
+
+<span class="hljs-selector-tag">setColor</span>(GREEN)
+<span class="hljs-selector-tag">setLifespan</span>(<span class="hljs-number">1</span>,MINUTE)
+
+<span class="hljs-selector-tag">while</span> <span class="hljs-selector-tag">alive</span>():
+    <span class="hljs-selector-tag">randomMove</span>()
+    <span class="hljs-selector-tag">if</span> <span class="hljs-selector-tag">touchingOtherCell</span>():
+        <span class="hljs-selector-tag">meiosisDuplicate</span>()
+    ;
+;
+</code></pre><h2 id="important-things-to-note">Important things to note</h2>
+<ul>
+<li><p>In slivercs you do not need to use indentation but it is recomended for readability.</p>
+</li>
+<li><p>slivercs does rely on whitespace for core function.</p>
+</li>
+<li><p>slivercs is newline terminated</p>
+</li>
+<li><p>You canot make your own functions (for now)</p>
+</li>
+<li><p>You cannot make your own variables (for now)</p>
+</li>
+</ul>
+<hr>
+<h2 id="comments">Comments</h2>
+<p>Comments are made with the # symbol. Comments will be ingored in the instructions of the &quot;cell&quot;. Comments here work the same as in python.</p>
+<p><strong>Example code:</strong></p>
+<pre><code><span class="hljs-comment">#this is a comment and will be ingnored by the cell</span>
+</code></pre><hr>
+<h1 id="init-">Init:</h1>
+<h2 id="spawncell-">spawnCell()</h2>
+<p>This function spawns a &quot;cell&quot; object under the &quot;cell spawner&quot; object. Any code underneath this function is instructions for the &quot;cell&quot; object.</p>
+<p><strong>Example code:</strong></p>
+<pre><code><span class="hljs-function"><span class="hljs-title">spawnCell</span><span class="hljs-params">()</span></span> <span class="hljs-selector-id">#spawns</span> <span class="hljs-keyword">in</span> <span class="hljs-selector-tag">a</span> cell
+
+<span class="hljs-selector-id">#other</span> <span class="hljs-selector-tag">code</span> goes here
+</code></pre><hr>
+<h1 id="set-premade-variables-">Set premade variables:</h1>
+<h2 id="setcolor-x-">setColor(x)</h2>
+<p>You can replace x with a color and the &quot;cell&quot; will change color to the inputed color. The defult color is white.</p>
+<p><strong>list of colors that you can replace x with:</strong></p>
+<ul>
+<li><p>RED</p>
+</li>
+<li><p>ORANGE</p>
+</li>
+<li><p>YELLOW</p>
+</li>
+<li><p>GREEN</p>
+</li>
+<li><p>BLUE</p>
+</li>
+<li><p>LAVENDER</p>
+</li>
+<li><p>WHITE</p>
+</li>
+<li><p>BLACK</p>
+</li>
+</ul>
+<p><strong>Example code:</strong></p>
+<pre><code><span class="hljs-function"><span class="hljs-title">spawnCell</span><span class="hljs-params">()</span></span>
+
+<span class="hljs-function"><span class="hljs-title">setColor</span><span class="hljs-params">(GREEN)</span></span> <span class="hljs-selector-id">#sets</span> the <span class="hljs-attribute">color</span> of the spawned cell to green
+</code></pre><h2 id="setlifespan-t-u-">setLifespan(t,u)</h2>
+<p>You have to replace t with a number and you can replace u with a time unit. The &quot;cell&quot; will delete or &quot;kill&quot; it self after the specified time.</p>
+<p><strong>list of time units:</strong></p>
+<ul>
+<li><p>SECOND</p>
+</li>
+<li><p>MINUTE</p>
+</li>
+</ul>
+<p><strong>Example code:</strong></p>
+<pre><code><span class="hljs-function"><span class="hljs-title">spawnCell</span><span class="hljs-params">()</span></span>
+
+<span class="hljs-function"><span class="hljs-title">setColor</span><span class="hljs-params">(GREEN)</span></span>
+<span class="hljs-function"><span class="hljs-title">setLifespan</span><span class="hljs-params">(<span class="hljs-number">45</span>,SECOND)</span></span> <span class="hljs-selector-id">#the</span> cell deletes it self after <span class="hljs-number">45</span> seconds
+</code></pre>
