@@ -74,16 +74,24 @@ footer p {
 #games{
     margin: 0;
     display: block;
-    background-color: var(--color2);
+    background-color: var(--color4);
 }
 
 
 #months-12{
-    background-color: var(--color5);
+    background-color: var(--color2);
 }
 
 
 #writing{
+    background-color: var(--color4);
+}
+
+#books{
     background-color: var(--color2);
+}
+
+.horizontal-scrolling-container{
+    
 }
 
