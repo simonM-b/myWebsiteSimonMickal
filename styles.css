@@ -12,7 +12,12 @@ body{
     margin: 0;
 }
 
-header{
+main{
+    padding: 0;
+    
+}
+
+.cover{
     text-align: left;
     background-color: var(--color1);
     margin: 0;
@@ -20,15 +25,65 @@ header{
     color: var(--color3);
 }
 
-header h1{
+.cover h1{
     font-size:40vw;
     margin-top: -4vw;
     margin-bottom: -10vw;
     font-weight: normal;
 }
 
-header p{
+.cover p{
     margin-top: 0;
     margin-bottom: 0;
     font-weight: normal;
 }
+
+nav{
+    padding-left: 10px;
+    background-color: var(--color4);
+    color: var(--color1);
+}
+
+nav a {
+   color: var(--color1); 
+}
+
+nav a:hover {
+   color: var(--color2); 
+}
+
+footer{
+    padding-left: 10px;
+    background-color: var(--color4);
+    color: var(--color1);
+}
+
+footer p {
+    padding: 0;
+    margin: 0;
+}
+
+.exabition-stuff-containers{
+    padding: 10px;
+}
+
+.exabition-stuff-containers h2{
+    margin: 0;
+}
+
+#games{
+    margin: 0;
+    display: block;
+    background-color: var(--color2);
+}
+
+
+#months-12{
+    background-color: var(--color5);
+}
+
+
+#writing{
+    background-color: var(--color2);
+}
+
