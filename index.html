@@ -1,69 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Simon's :]</title>
-    <link href="basics.css" rel="stylesheet"/>
-    <link href="mainpg.css" rel="stylesheet"/>
-
-    <script>
-        function myFunction() {
-        alert("Coming soon! Updating page everyday!");
-        }
-    </script>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A website where simon puts his art and his current projects">
+  <title>Simon's :]</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <span class="nav-dont-scoll">
-        <nav>
-            <div class="center-this">
-                <a href=" "><div class="item"><p>Home</p></div></a>
-                <a onclick="myFunction()"><div class="item"><p>12 months of art</p></div></a>
-                <a href="blogs/books.html"><div class="item"><p>Book blog</p></div></a>
-                <a target="_blank" href="https://sliverofsatrw0.itch.io/"><div class="item"><p>My games</p></div></a>
-                <a target="_blank" href="ai/stop.html"><div class="item"><p>AI</p></div></a>
-            </div>
-        </nav>
-    </span>
 
-    <header class="title">
-        <h1>Simon's</h1>
-    </header>
+  <nav>
+    <a href="https://simonmickal.com/">www.SimonMickal.com</a> -
+    <a href="#games">games</a> -
+    <a href="comingsoon.html">writing</a> -
+    <a href="/blogs/books.html">book blog</a> -
+  </nav>
 
-    <main>
-        <section class="about">
-            <h1>About</h1>
-            <p>This is the page of Simon Mickal!</p>
-            <p>I will be posting my art, games, and other media here. Enjoy!</p>
-            <p>Im just me, trying to survive in capitalism moving to technofeudalism and technofascism.</p>
-        </section>
+  <header class="cover">
+    <h1>ART</h1>
+    <p>
+      Is not the product,
+      you are not the product and I’m not the product.
+      This page is ment to inspire and show off my art, not me, and not to spy on you.
+      This website has no products.<br>
+      Merriam-Webster defines a product as "something (such as a service)
+      that is marketed or sold as a commodity."
+      I am not selling something and I’m not marketing anything either.
+      All works on my website are free to view.
+    </p>
+  </header>
 
-        <section class="months-12-of-art">
-            <h1>12 Months of art </h1>
-            <p>I'm going to be making on peice of art per month inspired by a theme. I'm not very artistic so I hope I learn something new doing this.</p>
-            <a href="https://example.com" class="link-dc-button-container">
-                <div class="dc-button">
-                    <p>Click here to go to 12 months of art page</p>
-                </div>
-            </a>
-        </section>
+  <main>
+    <section class="exabition-stuff-containers" id="games">
+      <header>
+        <h2>My games</h2>
+        <p>My games are mostly made with <a href="https://godotengine.org/">godot</a>. I want to experiment with pygame
+          and löve2d next. Currently most of my games are hosted and downloadable on my <a
+            href="https://sliverofsatrw0.itch.io/">itch.io page</a>. I want to host them on my own website in the
+          future. </p>
+      </header>
+      <h3>Here are my active game projects.</h3>
+      <div class="horizontal-scrolling-container">
+        <p>section coming soon!</p>
+      </div>
+      <h3>Find more game projects here.</h3>
+      <ul>
+        <li><a href="https://sliverofsatrw0.itch.io/">My itch.io</a></li>
+        <li><a href="https://github.com/simonM-b">My github</a></li>
+        <li><a href="https://github.com/SliverOfStraw0">My other github</a></li>
+        <li><a href="https://codeberg.org/">My codeberg</a></li>
+      </ul>
 
-        <section class="book-blog">
-            <h1>Book blog</h1>
-            <p>I need to read more books and I need to keep track of them. This is the place where I'm gonna try to achive these goals</p>
-            <a href="blogs/books.html" class="link-dc-button-container">
-                <div class="dc-button">
-                    <p>Click here to go to book blog</p>
-                </div>
-            </a>
-        </section>
-    </main>
-    <footer>
-        <p>This is the footer. IDK what to put here</p>
-        <p>Page created by Simon Mickal</p>
-        <p>Page made without Gen AI</p>
-        <a href="../index.html">Index of simonmickal.com</a>
-    </footer>
-<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"1a862544c3ba45b6b2042fa06bc2d528","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+    </section>
+
+    <!-- <section class="exabition-stuff-containers" id="months-12">
+
+
+      <header>
+        <h2>My 12 months of art</h2>
+      </header>
+    </section> -->
+
+    <!-- <section class="exabition-stuff-containers" id="writing">
+      <header>
+        <h2>My writing</h2>
+      </header>
+    </section> -->
+
+
+    <section class="exabition-stuff-containers" id="books">
+      <header>
+        <h2>Book blog</h2>
+        <p>This is a page where I keep track of what I'm reading and what I want to read next. (The book blog page has
+          not recived a css upgade in a long time.)</p>
+      </header>
+      <a href="/blogs/books.html">You can acces my book blog by pressing on this link.</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <hr style="height:2px;border-width:0;color:gray;background-color:gray;margin: 0;margin-left: -10px;">
+    <p>By: Simon Mickal<br>2026</p>
+    <a href="https://sliverofstraw.com/">my other website</a>
+  </footer>
+
 </body>
+
+</html>
