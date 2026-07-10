@@ -1,0 +1,112 @@
+@media (max-width: 600px) {
+  :root {
+    --color1: #663397;
+    --color2: #A68DC9;
+    --color3: #E6E6FA;
+    --color4: #FFEED1;
+    --color5: #EED3B6;
+  }
+
+  body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 0;
+    margin: 0;
+  }
+
+  main {
+    padding: 0;
+
+
+  }
+
+  .cover {
+    text-align: left;
+    background-color: var(--color1);
+    margin: 0;
+    padding: 6vw;
+    padding-top: 20vw;
+    color: var(--color3);
+  }
+
+  .cover h1 {
+    font-size: 40vw;
+    margin-top: -4vw;
+    margin-bottom: -10vw;
+    font-weight: normal;
+  }
+
+  .cover p {
+    margin-top: 9px;
+    margin-bottom: 0;
+    font-weight: normal;
+  }
+
+  nav {
+    padding-left: 10px;
+    background-color: var(--color4);
+    color: var(--color1);
+    position: fixed;
+    width: 100%;
+    border-bottom: solid black 4px;
+
+  }
+
+  nav a {
+    color: var(--color1);
+    font-size: 20px;
+  }
+
+  nav a:hover {
+    color: var(--color2);
+  }
+
+  footer {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    background-color: var(--color4);
+    color: var(--color1);
+  }
+
+  footer p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .exabition-stuff-containers {
+    padding: 10px;
+  }
+
+  .exabition-stuff-containers h2 {
+    margin: 0;
+  }
+
+  #games {
+    margin: 0;
+    display: block;
+    background-color: var(--color4);
+  }
+
+
+  #months-12 {
+    background-color: var(--color2);
+  }
+
+
+  #writing {
+    background-color: var(--color4);
+  }
+
+  #books {
+    background-color: var(--color2);
+  }
+
+  #music {
+    background-color: var(--color4);
+  }
+
+  .horizontal-scrolling-container {}
+
+  #mobile-view-only {
+    display: block;
+  }
+}

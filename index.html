@@ -7,6 +7,7 @@
   <meta name="description" content="A website where simon puts his art and his current projects">
   <title>Simon's :]</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="mediaq.css">
 </head>
 
 <body>
@@ -14,7 +15,7 @@
   <nav>
     <a href="https://simonmickal.com/">www.SimonMickal.com</a> -
     <a href="#games">games</a> -
-    <a href="comingsoon.html">writing</a> -
+    <a href="/blogs/music.html">music</a> -
     <a href="/blogs/books.html">book blog</a>
   </nav>
 
@@ -74,9 +75,25 @@
       <header>
         <h2>Book blog</h2>
         <p>This is a page where I keep track of what I'm reading and what I want to read next. (The book blog page has
-          not recived a css upgade in a long time.)</p>
+          not recived a css updade in a long time.)</p>
       </header>
       <a href="/blogs/books.html">You can acces my book blog by pressing on this link.</a>
+    </section>
+
+
+    <section class="exabition-stuff-containers" id="music">
+      <header>
+        <h2>music</h2>
+        <p>I have no idea what I'm doing when I'm making music but I know that its fun. I will try to make a new music
+          peice every week.</p>
+      </header>
+      <h3 style="font-size: 16px;">This weeks music</h3>
+      <audio controls>
+        <source src="audio/m01.wav" type="audio/ogg">
+        <source src="audio/m01.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio><br><br>
+      <a href="/blogs/books.html">You can acces the music archive by pressing on this link.</a>
     </section>
 
   </main>
@@ -85,6 +102,7 @@
     <hr style="height:2px;border-width:0;color:gray;background-color:gray;margin: 0;margin-left: -10px;">
     <p>By: Simon Mickal<br>2026</p>
     <a href="https://sliverofstraw.com/">my other website</a>
+    <p id="mobile-view-only">You are currently in mobile view.<br>Some pages may not work as intended</p>
   </footer>
 
 </body>

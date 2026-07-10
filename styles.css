@@ -93,4 +93,13 @@ footer p {
   background-color: var(--color2);
 }
 
+#music {
+  background-color: var(--color4);
+}
+
+#mobile-view-only {
+  display: none;
+}
+
+
 .horizontal-scrolling-container {}
