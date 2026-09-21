@@ -13,13 +13,13 @@
 <body>
   <header class="top-title">
     <h1>Simon's</h1>
-    <h2>The official website of Simon.</h2>
+    <h2>The official website of Simon Mickal.</h2>
   </header>
   <main>
     <section class="container-of-link-boxes">
 
 
-      <a class="main-link-box">
+      <a class="main-link-box" href="https://codeberg.org/simonM">
         <div class="main-link-box-div">
           <img src="images/mini index icons/codeberge.png" alt="image of codeberge website logo">
           <div>
@@ -30,9 +30,9 @@
       </a>
 
 
-      <a class="main-link-box">
+      <a class="main-link-box" href="https://sliverofsatrw0.itch.io/">
         <div class="main-link-box-div">
-          <img src="images/mini index icons/itch.png" alt="image of codeberge website logo">
+          <img src="images/mini index icons/itch.png" alt="image of itch.io logo">
           <div>
             <h3>My Itch.io</h3>
             <p>Here I host most of my games</p>
@@ -41,8 +41,55 @@
       </a>
 
 
+      <a class="main-link-box" href="https://codeberg.org/simonM/sliverPDFViewer">
+        <div class="main-link-current-project-div">
+          <div>
+            <h3>Current project</h3>
+            <p>I am currently working on a pdf viewer</p>
+          </div>
+          <img src="images/current project/image.png">
+        </div>
+      </a>
+
+
+      <a class="main-link-box" href="">
+        <div class="main-link-box-div">
+          <div>
+            <h3>My socials</h3>
+            <p>Here is a page that contains all of my social media links</p>
+          </div>
+        </div>
+      </a>
+
+
+      <a class="main-link-box" href="">
+        <div class="main-link-box-div">
+          <div>
+            <h3>About me</h3>
+            <p>Here is a page that can help you get to know me better</p>
+          </div>
+        </div>
+      </a>
+
+
+      <a class="main-link-box" href="">
+        <div class="main-link-box-div">
+          <div>
+            <h3>Website info</h3>
+            <p>Here is a page that explains why this website is the way it is</p>
+          </div>
+        </div>
+      </a>
+
     </section>
   </main>
+  <footer>
+    © <span id="currentYear"></span> simonmickal.com All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
 </body>
 
 </html>

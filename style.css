@@ -5,6 +5,11 @@ body {
   padding-right: 0.5rem;
 }
 
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
 .top-title {
   margin-top: 10vw;
   text-align: center;
@@ -46,4 +51,32 @@ p {
   margin-top: 2rem;
   display: grid;
   gap: 1rem;
+}
+
+
+.main-link-current-project-div {
+  color: white;
+  background-color: #4b3445;
+  padding: 1rem;
+  outline-width: 0.1rem;
+  outline-color: white;
+  outline-style: solid;
+  border-radius: 0.3rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.main-link-current-project-div img {
+  max-width: 100%;
+  border-radius: 0.3rem;
+}
+
+footer {
+  background-color: #4b3445;
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-bottom: -1rem;
+  margin-top: 2rem;
+  padding: 1rem;
+  color: white;
 }
