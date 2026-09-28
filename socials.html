@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Simon's Socials</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <script src="randomBGColorFromList.js"></script>
+</head>
+
+<body class="body">
+  <header class="top-title">
+    <h1>Simon's Socials</h1>
+    <h2>The official website of Simon Mickal.</h2>
+    <a href="https://simonmickal.com/">Go home</a>
+  </header>
+  <main>
+    <section class="container-of-link-boxes">
+
+
+      <a class="main-link-box" href="https://codeberg.org/simonM">
+        <div class="main-link-box-div 2nd-color">
+          <img src="images/mini index icons/codeberge.png" alt="image of codeberge website logo">
+          <div>
+            <h3>My codeberge</h3>
+            <p>Here I have many of my coding projects</p>
+          </div>
+        </div>
+      </a>
+
+
+    </section>
+  </main>
+  <footer class="2nd-color">
+    © <span id="currentYear"></span> simonmickal.com All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
