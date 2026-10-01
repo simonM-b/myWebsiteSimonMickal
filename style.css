@@ -5,6 +5,10 @@ body {
   padding-right: 0.5rem;
 }
 
+a {
+  color: wheat;
+}
+
 h3 {
   margin: 0;
   padding: 0;
