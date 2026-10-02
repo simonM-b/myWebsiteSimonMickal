@@ -18,6 +18,11 @@
     <a href="index.html">Go home</a>
   </header>
   <main>
+    <div>
+      <img id="switch">
+    </div>
+
+
     <section class="container-of-link-boxes">
       <a class="main-link-box" href="https://codeberg.org/simonM">
         <div class="main-link-box-div 2nd-color">
@@ -70,6 +75,20 @@
 
   <script>
     document.getElementById("currentYear").textContent = new Date().getFullYear();
+
+    const img = document.getElementById('switch');
+    const cycleImages = ["/images/image cycle/1.png", "/images/image cycle/2.png", "/images/image cycle/3.png"]
+
+    async function cycle() {
+      img.src = cycleImages[0];
+      await new Promise(r => setTimeout(r, 2000));
+      img.src = cycleImages[1];
+      await new Promise(r => setTimeout(r, 2500));
+      img.src = cycleImages[2];
+      await new Promise(r => setTimeout(r, 2500));
+      cycle();
+    }
+    cycle();
   </script>
 </body>
 
