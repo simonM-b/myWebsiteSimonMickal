@@ -1,0 +1,21 @@
+@media (min-width:600px) {
+  .top-title h1 {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width:700px) {
+  .top-title h1 {
+    font-size: 6rem;
+  }
+
+  .top-title {
+    margin-top: 0.1vw;
+  }
+}
+
+@media (min-width:800px) {
+  .top-title h1 {
+    font-size: 7rem;
+  }
+}
