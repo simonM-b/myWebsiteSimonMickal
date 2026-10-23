@@ -1,0 +1,176 @@
+#mosaic-container2 {
+  justify-content: center;
+  align-items: center;
+}
+
+#mosaic-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  height: 570vh;
+  display: grid;
+  gap: 9px;
+  grid-template-columns: repeat(5, 1fr);
+  /*dont forget to update this*/
+  grid-template-rows: repeat(31, 1fr);
+  grid-template-areas:
+    "a b b c c"
+    "a b b c c"
+    "a b b c c"
+    "a d d c c"
+    "a d d e e"
+    "h h h e e"
+    "h h h f f"
+    "g j j f f"
+    "g j j f f"
+    "g j j p p"
+    "i i k p p"
+    "i i k q q"
+    "i i k q q"
+    "n n k l l"
+    "n n k l l"
+    "n n k l l"
+    "n n m m m"
+    "o o m m m"
+    "o o m m m"
+    "s t t r r"
+    "s t t r r"
+    "s t t r r"
+    "s t t u u"
+    "s t t u u"
+    "w w w w v"
+    "w w w w v"
+    "x x z y y"
+    "x x z y y"
+    "x x z y y"
+    "a2 a2 a2 y y"
+    "a2 a2 a2 y y";
+}
+
+img {
+  display: none;
+}
+
+.tile {
+  background-color: blue;
+  border: black 5px solid;
+  text-align: center;
+  color: white;
+  font-size: 30pt;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+}
+
+.tile p {
+  text-align: center;
+  margin: 0;
+}
+
+#a {
+  grid-area: a;
+}
+
+#b {
+  grid-area: b;
+}
+
+#c {
+  grid-area: c;
+}
+
+#d {
+  grid-area: d;
+}
+
+#e {
+  grid-area: e;
+}
+
+#f {
+  grid-area: f;
+}
+
+#g {
+  grid-area: g;
+}
+
+#h {
+  grid-area: h;
+}
+
+#i {
+  grid-area: i;
+}
+
+#j {
+  grid-area: j;
+}
+
+#k {
+  grid-area: k;
+}
+
+#l {
+  grid-area: l;
+}
+
+#m {
+  grid-area: m;
+}
+
+#n {
+  grid-area: n;
+}
+
+#o {
+  grid-area: o;
+}
+
+#p {
+  grid-area: p;
+}
+
+#q {
+  grid-area: q;
+}
+
+#r {
+  grid-area: r;
+}
+
+#s {
+  grid-area: s;
+}
+
+#t {
+  grid-area: t;
+}
+
+#u {
+  grid-area: u;
+}
+
+#v {
+  grid-area: v;
+}
+
+#w {
+  grid-area: w;
+}
+
+#x {
+  grid-area: x;
+}
+
+#y {
+  grid-area: y;
+}
+
+#z {
+  grid-area: z;
+}
+
+#a2 {
+  grid-area: a2;
+}
