@@ -1,0 +1,105 @@
+:root {
+  --primary-bg-color: #F0F9FF;
+  --second-bg-color: #60A5FA;
+  --third-color: #3B82F6;
+  --fourth-color: #d3d3d3;
+  --main-text-color: #1F2937;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--primary-bg-color);
+}
+
+h1 {
+  margin: 0;
+}
+
+
+.center-parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.center-main-child {
+  width: 60%;
+  padding: 20px;
+  border-radius: 12px;
+  border: var(--third-color) 4px solid;
+  background-color: var(--second-bg-color);
+  color: var(--main-text-color);
+  animation: fadeIn 0.5s ease-in;
+
+}
+
+.flex-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.standard-button {
+  background-color: var(--primary-bg-color);
+  border-radius: 5px;
+  width: 50%;
+  height: 50px;
+  border: var(--third-color) 2px solid;
+}
+
+.standard-button:hover {
+  background-color: var(--fourth-color);
+}
+
+.back-button {
+  width: 10%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.center-things {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.flex-2image {
+  display: flex;
+  gap: 5px;
+}
+
+.flex-2image img {
+  max-height: 100px;
+  -webkit-filter: brightness(100%);
+  border-radius: 2px;
+}
+
+.flex-2image img:hover {
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 0.1s ease;
+  -moz-transition: all 0.1s ease;
+  -o-transition: all 0.1s ease;
+  -ms-transition: all 0.1s ease;
+  transition: all 0.1s ease;
+}

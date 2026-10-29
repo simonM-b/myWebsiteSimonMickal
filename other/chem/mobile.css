@@ -1,0 +1,20 @@
+@media (max-width: 600px) {
+
+  .back-button {
+    width: 30%;
+  }
+
+  .flex-2image {
+    display: block;
+    gap: 5px;
+  }
+
+  .flex-2image img {
+    max-width: 300px;
+  }
+
+  .center-main-child {
+    width: 95%;
+  }
+
+}

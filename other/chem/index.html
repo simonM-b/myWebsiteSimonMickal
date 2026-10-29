@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chem Expo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="mobile.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <script src="https://litebokz.github.io/litebokz/litebokz.js"></script>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.4.0/model-viewer.min.js"></script>
+</head>
+
+<body>
+  <main>
+    <div class="center-parent">
+      <div id="Page1" class="center-main-child page fadeIn">
+        <h1>Aspirin Dissolving Project CHEMISTRY</h1>
+        <h2>By: Grace, Lucas, Simon</h2>
+        <p>We wanted to figure out which aspirin worked the fastest to resolve pain; we got the dissolving data of each
+          aspirin and compared them with each other. The aspirins were dissolved in warm (~body temp) vinegar of a ph of
+          2
+        </p>
+        <div class="flex-buttons">
+          <button onclick="show('Page2');" class="standard-button" type="button">Continue</button>
+        </div>
+      </div>
+
+      <div id="Page2" class="center-main-child page" style="display: none;">
+        <h1>Problem & Solution</h1>
+        <h2>Problem</h2>
+        <p>Our problem was this: Which Aspirin should I take for the fastest pain relief and which aspirin works the
+          fastest?</p>
+        <h2>Solution</h2>
+        <p>Our solution was to test 4 different types of Aspirins in 37c vinegar simulating the conditions of the
+          stomach acid and the conditions of the intestines. After that we would setup an exhibit to explain which
+          aspirin is the most effective.</p>
+        <div class="flex-buttons">
+          <button onclick="show('Page1');" class="standard-button back-button" type="button">Back</button>
+          <button onclick="show('Page3');" class="standard-button" type="button">Continue</button>
+        </div>
+      </div>
+
+      <div id="Page3" class="center-main-child page" style="display:none;">
+        <h1>The Raw Data & The Graph</h1>
+        <p>We tested 4 types of Aspirin. Chewable, Low Dosage, Regular, Powdered. <br> (click on the image to enlarge)
+        </p>
+        <div class="center-things">
+          <div class="flex-2image">
+            <img class="litebokz" src="images/dataphot.png" alt="">
+            <img class="litebokz" src="images/graph.png" alt="">
+          </div>
+        </div>
+        <p>The 1st image is the raw data we got from doing our experiments. The 2nd image is the graph of that
+          data. We tested the amount of time each Aspirin took to resolve in 37c vinegar. Vinegar has a PH around 2
+          which mimics the PH found in stomach acid and in the digestive track.</p>
+        <div class="flex-buttons">
+          <button onclick="show('Page2');" class="standard-button back-button">Back</button>
+          <button onclick="show('Page4');" class="standard-button">Continue</button>
+        </div>
+      </div>
+
+      <div id="Page4" class="center-main-child page" style="display:none;">
+        <h1>Mini Test:</h1>
+        <p>According to the last section's table which Aspirin dissolved the fastest? (you can press the 'back' button
+          if you need to)
+        </p>
+        <div class="flex-buttons">
+          <button onclick="show('Page4b');" class="standard-button">Chewable</button>
+          <button onclick="show('Page4b');" class="standard-button">Low Dosage</button>
+          <button onclick="show('Page4b');" class="standard-button">Regular</button>
+          <button onclick="show('Page4a');" id="confettiBtn" class="standard-button">Powdered</button>
+        </div>
+        <div class="flex-buttons">
+          <button onclick="show('Page3');" class="standard-button back-button">Back</button>
+        </div>
+      </div>
+
+
+      <div id="Page4a" class="center-main-child page" style="display:none;">
+        <h1>Correct!</h1>
+        <p>Powdered Aspirin dissolves the fastest. You can move on to the next page.</p>
+        <div class="flex-buttons">
+          <button onclick="show('Page4');" class="standard-button back-button">Back</button>
+          <button onclick="show('Page5');" class="standard-button">Continue</button>
+        </div>
+      </div>
+
+
+      <div id="Page4b" class="center-main-child page" style="display:none;">
+        <h1>Incorrect :(</h1>
+        <p>Powdered Aspirin dissolves the fastest. You can move on to the next page.</p>
+        <div class="flex-buttons">
+          <button onclick="show('Page4');" class="standard-button back-button">Back</button>
+          <button onclick="show('Page5');" class="standard-button">Continue</button>
+        </div>
+      </div>
+
+
+      <div id="Page5" class="center-main-child page" style="display:none;">
+        <h1>Molecules</h1>
+        <p>For this project we had to choose 2 molecules and analyze their electro negativity and the type of bonds that
+          they have. <br> The molecules that we chose are: Aspirin & Glucose <br> (click on image to enlarge)</p>
+        <div class="center-things">
+          <div class="flex-2image" style="margin-bottom: 10px;">
+            <img class="litebokz" src="images/aspirin.png" alt="">
+            <img class="litebokz" src="images/glucose.png" alt="">
+          </div>
+        </div>
+
+        <div class="flex-buttons">
+          <button onclick="show('Page4');" class="standard-button back-button">Back</button>
+          <button onclick="show('Page6');" class="standard-button">Continue</button>
+        </div>
+      </div>
+
+      <div id="Page6" class="center-main-child page" style="display:none;">
+        <h1>Aspirin Live Model</h1>
+        <p>This is a 3d live model. You can drag your mouse inside the model window to move it around.</p>
+        <iframe src="https://chemmodel.com/embed?mol=aspirin" width="100%" height="420"
+          style="border:none;border-radius:10px" loading="lazy" allow="clipboard-write"></iframe>
+
+        <div class="flex-buttons">
+          <button onclick="show('Page5');" class="standard-button back-button">Back</button>
+          <button onclick="show('Page7');" class="standard-button">Continue</button>
+        </div>
+      </div>
+
+      <div id="Page7" class="center-main-child page" style="display:none;">
+        <h1>Glucose Live Model</h1>
+        <p>This is a 3d live model. You can drag your mouse inside the model window to move it around.</p>
+        <iframe src="https://chemmodel.com/embed?mol=glucose" width="100%" height="420"
+          style="border:none;border-radius:10px" loading="lazy" allow="clipboard-write"></iframe>
+
+        <div class="flex-buttons">
+          <button onclick="show('Page6');" class="standard-button back-button">Back</button>
+          <button onclick="show('Page8');" class="standard-button">Continue</button>
+        </div>
+      </div>
+
+      <div id="Page8" class="center-main-child page" style="display:none;">
+        <h1>IMF</h1>
+        <p>IMF stands for InterMolecular Forces. Each Molecule can have different forces. <br> There are different
+          types of IMF. Here are a few: London Dispersion Forces, Dipole-Dipole Forces & Hydrogen Bonding.</p>
+        <div class="flex-buttons">
+          <button onclick="show('Page7');" class="standard-button back-button">Back</button>
+          <button onclick="show('Page9');" class="standard-button">Continue</button>
+        </div>
+      </div>
+
+      <div id="Page9" class="center-main-child page" style="display:none; width: 85%;">
+        <h1>3 Main IMF</h1>
+        <h3>London Dispersion Forces</h3>
+        <p> London Dispersion forces happen in every molecule and is the result of electrons randomly moving more to
+          one side of the atom than the other. These forces are relatively weak.</p>
+        <h3>Dipole-Dipole Forces</h3>
+        <p>
+          Dipole-Dipole Forces happen when a molecule is polar because of its electron negativity. <br> Molecules can be
+          polar when an atom with a low electronegativity is bonded with an electron with a high electronegativity (see
+          the periodic table and the line of increasing electronegativity).
+        </p>
+        <h3>Hydrogen Bonding</h3>
+        <p>Hydrogen bonding forces are the strongest intermolecular force and they happen when H is bonded to N,O or F
+        </p>
+
+
+        <div class="center-things">
+          <div class="flex-2image" style="margin-bottom: 10px;">
+            <img class="litebokz" src="images/electroperiod.jpg" alt="">
+          </div>
+        </div>
+        <p>(click on image to enlarge)</p>
+
+
+        <div class=" flex-buttons">
+          <button onclick="show('Page8');" class="standard-button back-button">Back</button>
+          <button onclick="show('Page10');" class="standard-button">Continue</button>
+        </div>
+      </div>
+
+      <div id="Page10" class="center-main-child page" style="display:none; width: 85%;">
+        <h1>Mini Test:</h1>
+        <p>Which of these molecules have London Dispersion Forces.</p>
+        <div class="center-things">
+          <div class="flex-2image" style="margin-bottom: 10px;">
+            <img class="litebokz" src="images/poop.png" alt="">
+            <img class="litebokz" src="images/poop2.png" alt="">
+          </div>
+        </div>
+        <p>(click on image to enlarge)</p>
+
+
+        <div class=" flex-buttons">
+          <button onclick="show('Page9');" class="standard-button back-button">Back</button>
+          <button onclick="show('Page10b');" class="standard-button">First Image Only</button>
+          <button onclick="show('Page10b');" class="standard-button">Second Image Only</button>
+          <button onclick="show('Page10a');" class="standard-button">Both Images</button>
+        </div>
+      </div>
+
+      <div id="Page10a" class="center-main-child page" style="display:none;">
+        <h1>Correct!</h1>
+        <div class="flex-buttons">
+          <button onclick="show('Page10');" class="standard-button back-button">Back</button>
+          <button onclick="show('Page11');" class="standard-button">Continue</button>
+        </div>
+      </div>
+
+
+      <div id="Page10b" class="center-main-child page" style="display:none;">
+        <h1>Incorrect :(</h1>
+        <div class="flex-buttons">
+          <button onclick="show('Page10');" class="standard-button back-button">Back</button>
+          <button onclick="show('Page11');" class="standard-button">Continue</button>
+        </div>
+      </div>
+
+      <div id="Page11" class="center-main-child page" style="display:none;">
+        <h1>Career connection</h1>
+        <p> The main careers that use Aspirin are doctors and pharmacists.</p>
+        <div class="center-things">
+          <div class="flex-2image">
+            <img class="litebokz" src="images/Pharmacist.jpg" alt="">
+            <img class="litebokz" src="images/doctor.jpg" alt="">
+          </div>
+
+        </div>
+        <div class="flex-buttons">
+          <button onclick="show('Page10');" class="standard-button back-button">Back</button>
+          <button onclick="show('Page12');" class="standard-button">Continue</button>
+        </div>
+      </div>
+
+      <div id="PageEnd" class="center-main-child page" style="display:none;">
+        <h1>You finished the presentation!!! <br>CONGRATS</h1>
+        <div class="flex-buttons">
+          <button onclick="show('Page10');" class="standard-button back-button">Back</button>
+          <button onclick="reloadThing()" class="standard-button">Reload</button>
+        </div>
+        <h1>PRESENTER: RELOAD THE PAGE FOR THE NEXT GROUP (IT WILL GLITCH IF YOU DON'T)</h1>
+      </div>
+
+    </div>
+
+
+
+  </main>
+  <script src="script.js"></script>
+</body>
+
+</html>
