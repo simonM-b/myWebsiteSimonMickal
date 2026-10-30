@@ -1,0 +1,62 @@
+@media screen and (max-width: 700px) {
+  #title {
+    font-size: 32pt;
+    color: #DFD3E3;
+  }
+
+  .parent {
+    height: 100svh;
+    padding: 20px;
+    padding-bottom: 200px;
+
+  }
+
+  p {
+    font-size: 16pt;
+    color: #D7E3D3;
+  }
+
+
+  #link-a {
+    background-color: #D7E3D3;
+    color: black;
+    padding: 10px;
+    display: grid;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    width: 100vw;
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+  }
+
+  #link-a p {
+    color: black;
+    margin: 0;
+  }
+
+  #play div {
+    height: 50px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  #title {
+    font-size: 32pt;
+    margin-top: 80px;
+  }
+
+
+}
+
+@media screen and (max-width: 390px) {
+  #title {
+    font-size: 28pt;
+  }
+
+
+}
