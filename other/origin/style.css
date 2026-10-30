@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+
+  color: white;
+}
+
+
+.parent {
+  display: grid;
+  justify-items: center;
+  place-items: center;
+  align-items: center;
+  place-items: center;
+  place-content: center;
+  height: 70vh;
+
+}
+
+.child {
+  text-align: center;
+  place-self: center;
+}
+
+#play {
+  text-decoration: none;
+}
+
+#play div {
+  background-color: aquamarine;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  display: grid;
+  place-content: center;
+
+}
+
+#play div p {
+  place-self: center;
+  color: black;
+
+}
+
+#play {
+  color: black;
+}
+
+#play div:hover {
+  background-color: blueviolet;
+}
