@@ -84,7 +84,7 @@
         <p>Powdered Aspirin dissolves the fastest. You can move on to the next page.</p>
         <div class="flex-buttons">
           <button onclick="show('Page4');" class="standard-button back-button">Back</button>
-          <button onclick="show('Page5');" class="standard-button">Continue</button>
+          <button onclick="show('PageStraw1');" class="standard-button">Continue</button>
         </div>
       </div>
 
@@ -94,9 +94,55 @@
         <p>Powdered Aspirin dissolves the fastest. You can move on to the next page.</p>
         <div class="flex-buttons">
           <button onclick="show('Page4');" class="standard-button back-button">Back</button>
+          <button onclick="show('PageStraw1');" class="standard-button">Continue</button>
+        </div>
+      </div>
+
+      <div id="PageStraw1" class="center-main-child page" style="display:none;">
+        <h1>Precision Comparison</h1>
+        <p> the powder experiment was more precise because it had a lesser standard deviation. <br> The chewable
+          experiment is less accurate but we are still confident that the test correctly measured the dissolve ability
+          well.
+        </p>
+
+        <div class="center-things">
+          <div class="flex-2image" style="margin-bottom: 10px;">
+            <img class="litebokz" src="images/c1.png" alt="">
+            <img class="litebokz" src="images/c2.png" alt="">
+          </div>
+        </div>
+
+
+        <div class="flex-buttons">
+          <button onclick="show('Page4');" class="standard-button back-button">Back</button>
+          <button onclick="show('PageStraw2');" class="standard-button">Continue</button>
+        </div>
+      </div>
+
+      <div id="PageStraw2" class="center-main-child page" style="display:none;">
+        <h1>Can we trust our data?</h1>
+        <p>Yes according to our experiments we can trust our data. It is precise enough to get correct results and there
+          is no overlap in-between the numbers</p>
+        <p>
+          One possible random source of variation:
+          An issue could be with the timers. Our timing may have been incorrect as we could've started the timer late or
+          ended the timer too early.
+          Effect on data:
+          our timers.
+          This can skew up our data times. Our times may take shorter than aspirin actually takes to dissolve because of
+          One possible systematic source of error:
+          It's difficult to sell when aspirin (especially powdered aspirin) is fully dissolved.
+          Effect on data:
+          This can skew our dissolving times as well. The aspirin may have needed more time to dissolve, and we just
+          couldn't really tell.
+        </p>
+        <div class="flex-buttons">
+          <button onclick="show('PageStraw1');" class="standard-button back-button"></button>
           <button onclick="show('Page5');" class="standard-button">Continue</button>
         </div>
       </div>
+
+
 
 
       <div id="Page5" class="center-main-child page" style="display:none;">
@@ -111,7 +157,7 @@
         </div>
 
         <div class="flex-buttons">
-          <button onclick="show('Page4');" class="standard-button back-button">Back</button>
+          <button onclick="show('PageStraw1');" class="standard-button back-button">Back</button>
           <button onclick="show('Page6');" class="standard-button">Continue</button>
         </div>
       </div>
