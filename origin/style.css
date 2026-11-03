@@ -1,51 +1,42 @@
+:root {
+  --color1: #D7E3D3;
+  --color2: #DFD3E3;
+}
+
 body {
   background-color: black;
-
-  color: white;
 }
 
-
-.parent {
-  display: grid;
-  justify-items: center;
-  place-items: center;
-  align-items: center;
-  place-items: center;
-  place-content: center;
-  height: 70vh;
-  margin-top: 50px;
-
+h1 {
+  color: var(--color2);
 }
 
-.child {
-  text-align: center;
-  place-self: center;
+#title {
+  font-size: 32pt;
 }
 
-#play {
-  text-decoration: none;
+#disclaimer {
+  font-size: 16pt;
+  margin-bottom: 50px;
 }
 
-#play div {
-  background-color: aquamarine;
-  width: 100%;
-  height: 100px;
-  text-align: center;
-  display: grid;
-  place-content: center;
-
+p {
+  color: var(--color1);
 }
 
-#play div p {
-  place-self: center;
+#link-a p {
   color: black;
-
+  margin: 0;
 }
 
-#play {
-  color: black;
+
+#link-a {
+  margin-top: 10px;
+  background-color: var(--color1);
+  padding: 15px;
+  border-radius: 10px;
 }
 
-#play div:hover {
-  background-color: blueviolet;
+#link-a-parent {
+  margin-bottom: 20px;
 }
