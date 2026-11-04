@@ -27,6 +27,7 @@ p {
 #link-a p {
   color: black;
   margin: 0;
+  word-wrap: break-word;
 }
 
 
@@ -35,6 +36,7 @@ p {
   background-color: var(--color1);
   padding: 15px;
   border-radius: 10px;
+  word-wrap: break-word;
 }
 
 #link-a-parent {
